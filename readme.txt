@@ -2,7 +2,7 @@
 Contributors: karolsojko
 Donate link: http://www.blog.karolsojko.com
 Tags: google, plusone, +1, google widget, google plus one widget, google plusone widget, google plusone, posts, page, post
-Requires at least: 2.5
+Requires at least: 3.0
 Tested up to: 3.1.3
 Stable tag: 0.5
 
