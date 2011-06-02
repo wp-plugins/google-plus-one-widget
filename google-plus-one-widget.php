@@ -4,7 +4,7 @@
 
 Plugin Name: Google Plus One Widget
 
-Description: Adds the new Google "+1" button on single posts pages and page type pages. Really simple just install and enjoy :)
+Description: Adds the new Google "+1" button on single posts pages, page type pages and homepage under post titles. Really simple just install and enjoy :)
 
 Version: 0.5
 
@@ -37,7 +37,7 @@ function add_google_plusone_content($content = ''){
 
 function get_google_plusone_button($size = 'tall'){
   if(!is_single() && !is_page()){
-    $button = '<div class="google_plusone_widget"><g:plusone url="' . get_permalink() . '" size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
+    $button = '<div class="google_plusone_widget"><g:plusone href="' . get_permalink() . '" size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
   }
   else{
     $button = '<div class="google_plusone_widget"><g:plusone size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
