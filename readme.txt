@@ -18,7 +18,7 @@ Adds the new Google "+1" button on single posts pages, page type pages and homep
 
 This section describes how to install the plugin and get it working.
 
-1. Put 'google-plus-one-widget.php' in '/wp-content/plugins/'
+1. Put contents of the zip file in '/wp-content/plugins/'
 2. Activate the plugin in your dashboard
 
 == Frequently Asked Questions ==
