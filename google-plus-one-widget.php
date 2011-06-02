@@ -6,7 +6,7 @@ Plugin Name: Google Plus One Widget
 
 Description: Adds the new Google "+1" button on single posts pages and page type pages. Really simple just install and enjoy :)
 
-Version: 0.5
+Version: 0.6
 
 Author: Karol Sojko
 
