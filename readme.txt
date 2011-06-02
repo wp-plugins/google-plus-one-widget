@@ -4,7 +4,7 @@ Donate link: http://www.blog.karolsojko.com
 Tags: google, plusone, +1, google widget, google plus one widget, google plusone widget, google plusone, posts, page, post
 Requires at least: 2.5
 Tested up to: 3.1.3
-Stable tag: "trunk"
+Stable tag: 0.5
 
 Adds the new Google "+1" button on single posts pages and page type pages. Really simple just install and enjoy :)
 
@@ -28,8 +28,14 @@ none at this point
 == Screenshots ==
 
 1. On a single post page
+2. Configuration on dashboard
 
 == Changelog ==
+
+= 0.5 =
+
+* Added configuration in dashboard
+* Added displayin in home page on each post
 
 = 0.1 =
 
