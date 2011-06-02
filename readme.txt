@@ -6,13 +6,13 @@ Requires at least: 3.0
 Tested up to: 3.1.3
 Stable tag: 0.6
 
-Adds the new Google "+1" button on single posts pages and page type pages. Really simple just install and enjoy :)
+Adds the new Google "+1" button on single posts pages, page type pages and homepage under post titles. Really simple just install and enjoy :)
 
 == Description ==
 
 = Google +1 widget on your blog =
 
-Adds the new Google "+1" button on single posts pages and page type pages. Really simple just install and enjoy :)
+Adds the new Google "+1" button on single posts pages, page type pages and homepage under post titles. Really simple just install and enjoy :)
 
 == Installation ==
 
