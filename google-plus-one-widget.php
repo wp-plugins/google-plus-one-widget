@@ -6,7 +6,7 @@ Plugin Name: Google Plus One Widget
 
 Description: Adds the new Google "+1" button on single posts pages, page type pages and homepage under post titles. Really simple just install and enjoy :)
 
-Version: 0.6
+Version: 1.0
 
 Author: Karol Sojko
 
@@ -32,19 +32,21 @@ function add_google_plusone_content($content = ''){
     $content = $button . $content . $button;
   }
 
-	return $content;
+  return $content;
 }
 
 function get_google_plusone_button($size = 'tall'){
   if(!is_single() && !is_page()){
-    $button = '<div class="google_plusone_widget"><g:plusone href="' . get_permalink() . '" size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
+    $button = '<div class="google_plusone_widget"><g:plusone 
+      count="' . (get_option('google_plusone_widget_ks_count', true) ? 'true' : 'false') . '" href="' . get_permalink() . '" size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
   }
   else{
-    $button = '<div class="google_plusone_widget"><g:plusone size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
+    $button = '<div class="google_plusone_widget"><g:plusone 
+      count="' . (get_option('google_plusone_widget_ks_count', true) ? 'true' : 'false') . '" size="' . get_option('google_plusone_widget_ks_size', 'tall') .'"></g:plusone></div>';
   }
 
 
-	return $button;
+  return $button;
 }
 
 add_action('wp_print_scripts', 'add_google_plusone_header');
