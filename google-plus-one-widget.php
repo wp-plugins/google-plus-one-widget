@@ -8,7 +8,7 @@ Description: Adds the new Google "+1" button on single posts pages, page type pa
 
 Version: 1.0
 
-Author: Karol Sojko
+Author: Karol Sójko
 
 Author URI: http://www.karolsojko.com
 
